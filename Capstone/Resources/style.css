@@ -1,0 +1,351 @@
+/*Universal*/
+body{
+  color:black;
+}
+h1{
+  font-weight:bold;
+  font-size:22px;
+
+}
+h2{
+  font-weight:bold;
+  font-size:17px;
+}
+h3{
+  font-size:14px;
+}
+.Section-Title{
+  text-align: center;
+  width:100%;
+  padding-top:32px;
+  padding-bottom:32px;
+  height:auto;
+}
+/*header bar on top*/
+.header{
+  display:flex;
+  height:64px;
+  align-items: center;
+  padding-left:24px;
+
+}
+.header li{
+  display:inline;
+  padding-right:16px;
+}
+.logo-name{
+  display:flex;
+  flex-grow:1;
+
+}
+h2 span{
+  color:gray;
+}
+/*Banner*/
+.Banner{
+  background-color: gray;
+  display:flex;
+  flex-direction: row;
+  width:100%;
+}
+ .Banner-picture{
+  padding-left:24px;
+  padding-bottom:32px;
+  padding-top:32px;
+  padding-right:40px;
+}
+.Banner-picture img{
+  width:800px;
+}
+
+.Learn{
+
+  align-items: center;
+  align-content: center;
+  align-self: center;
+  background-color:rgba(255,100,100,0.5);
+}
+/*can't get button text to center*/
+.button{
+border-radius: 4px;
+color: #201d1d;
+display: block;
+font-weight: 700;
+max-width:200px;
+border:1px solid blue;
+align-content:center;
+justify-content: center;
+align-items: center;
+padding-top:8px;
+padding-bottom:8px;
+background-color: #a51616;
+}
+/*general info*/
+.general-info{
+ display: flex;
+ padding-top:32px;
+}
+.inspiration{
+  display:block;
+  padding-left:24px;
+  padding-right:24px;
+  padding-bottom: 32px;
+
+}
+.inspiration h1{
+padding-bottom:24px;
+}
+.inspiration p{
+
+}
+.inspiration h6{
+
+}
+.inspiration img{
+  width:800px;
+}
+
+.box{
+  display:flex;
+  width:423px;
+  border: 2px dashed black;
+}
+.start{
+  justify-content: center;
+  align-content: center;
+  background-color:green;
+}
+.start h1{
+  justify-content: space-between;
+
+}
+
+.col{
+  display:flex;
+  justify-content: center;
+
+
+
+}
+.classes{
+  display:block;
+  margin-right: 32px;
+  background-color:rgba(150,25,175,.55)
+  justify-content:center;
+}
+.desc{
+  background-color:#FFFFFF;
+  margin:0 0;
+}
+.class img{
+  align-self: center;
+  height:134px;
+  width:25%;
+  margin:0 0;
+}
+.classes h2{
+  padding-top:16px;
+  padding-left:16px;
+}
+.classes p{
+padding-left:16px;
+padding-top:8px;
+}
+.Thesis{
+  display:flex;
+}
+#thesis-header{
+  text-align: center;
+  padding-bottom:32px;
+
+}
+
+footer{
+  display:flex;
+  height:64px;
+  align-items: center;
+  padding-left:24px;
+
+}
+.header li{
+  display:inline;
+  padding-right:16px;
+}
+.company {
+  flex-grow:1;
+}
+/*Mobile Design*/
+@media only screen and (min-width: 420px) {
+/*universal*/
+html {
+  font-size: 14px;
+  min-width: 420px;
+  max-width: 420px;
+}
+/*header*/
+header h1{
+  display: none;
+}
+ul.desktop{
+  display: none;
+}
+ul.mobile{
+  display: inline-block;
+}
+/*banner*/
+.banner-image img{
+    display: none;
+}
+.banner-text{
+  padding-right: 0px;
+  margin-top: 180px;
+  margin-left: 16px;
+  width: 100%;
+  align-items: center;
+}
+.banner-text button{
+  margin-bottom: 32px;
+}
+/*main*/
+.inspire{
+  display: none;
+}
+.information-box{
+  display: block;
+  border: none;
+}
+.information-box img{
+  display: none;
+}
+.information-box img.mobile{
+  display: block;
+  width: 95%;
+  margin: 16px 16px;
+}
+.information-box-text{
+  margin: 16px 16px;
+}
+/*listings*/
+.course-box img{
+  display: none;
+}
+.course-box-text span,
+.course-box-text p{
+  display: none;
+}
+.course-box-container{
+  display: inline-block;;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  margin-left: 16px;
+}
+.course-box{
+  background-color: rgb(200,200,200);
+  margin-bottom: 4px;
+  padding: 0;
+}
+#learn{
+  background-color: white;
+}
+/*thesis*/
+.thesis-info,
+.thesis-video-text{
+  display: none;
+}
+.thesis-video video{
+  margin: 0;
+  width: 100%;
+}
+/*footer*/
+footer nav span{
+  display: none;
+}
+}
+/*Mobile Design*/
+@media only screen and (min-width: 420px) {
+/*universal*/
+html {
+  font-size: 14px;
+  min-width: 420px;
+  max-width: 420px;
+}
+/*header*/
+header h1{
+  display: none;
+}
+ul{
+  display: none;
+}
+ul.mobile{
+  display: inline-block;
+}
+/*banner*/
+.banner-picture img{
+    display: none;
+}
+.Learn{
+  padding-right: 0px;
+  margin-top: 180px;
+  margin-left: 16px;
+  width: 100%;
+  align-items: center;
+}
+.button{
+  margin-bottom: 32px;
+}
+/*main*/
+.inspiration{
+  display: none;
+}
+.attract{
+  display: block;
+  border: none;
+}
+
+.box-image img{
+  display: none;
+}
+.information-box img.mobile{
+  display: block;
+  width: 95%;
+  margin: 16px 16px;
+}
+.information-box-text{
+  margin: 16px 16px;
+}
+/*listings*/
+.course-box img{
+  display: none;
+}
+.course-box-text span,
+.course-box-text p{
+  display: none;
+}
+.course-box-container{
+  display: inline-block;;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: white;
+  margin-left: 16px;
+}
+.course-box{
+  background-color: rgb(200,200,200);
+  margin-bottom: 4px;
+  padding: 0;
+}
+
+/*thesis*/
+.thesis-info,
+.thesis-video-text{
+  display: none;
+}
+.thesis-video video{
+  margin: 0;
+  width: 100%;
+}
+/*footer*/
+footer nav span{
+  display: none;
+}
+}
